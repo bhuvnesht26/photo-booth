@@ -3,7 +3,7 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Grab Audio</title>
+  <title>Photo Booth</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <!-- <script src='audio.js'></script> -->
@@ -14,9 +14,9 @@
       <video autoplay></video>
       <p id='prompt1'>Please Capture Video To Get Started</p>
           <div> 
-            <h3>Screenshotter</h3>
-              <button class='capture'>Capture video</button>
-              <button id='screenshot' disabled>Screenshot</button>
+            <h3>Photo Booth</h3>
+              <button class='capture'>Start Camera</button>
+              <button id='screenshot' disabled>Take Selfie</button>
               <button class='download' disabled>Download</button>
               <label for="select"> Format </label>
               <select id="select" onchange='onFormatChange()'>
@@ -28,7 +28,7 @@
               <button id='clear' onclick="clearAll()" disabled>Clear All</button>
           </div>
       <div class='imgContainer'>
-          <p id='prompt2'>Click 'Screenshot' to take a picture.</p>
+          <p id='prompt2'>Click 'Take Selfie' to take a picture.</p>
           <img src=''>
       </div>
   </div>
